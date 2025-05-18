@@ -3,8 +3,8 @@ function calculateSum(numbers) {
         return null;
     }
 
-    sum = 0;
-    for (j = 0; j < numbers.length; j++) {
+   Let= sum = 0;
+    for (let j = 0; j < numbers.length; j++) {
         const value = numbers[j];
         if (typeof value !== 'number' || isNaN(value)) {
             continue;
